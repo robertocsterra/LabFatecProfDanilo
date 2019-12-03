@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".periodo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txttelaperiodo"
+                android:text="Cadastro de Período"
+
+                android:layout_width="372dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background_titulo_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/ic_inicio_background"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvperiodonome"
+            android:text="Nome do Período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtperiodonome"
+            android:hint="Informe nome do período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvperiodoano"
+            android:text="Ano"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtperiodoano"
+            android:hint="Informe ano deste período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvperiododatainicio"
+            android:text="Data inicial do período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtperiodoinicio"
+            android:hint="Informe data inicial para este período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvperiododatafinal"
+            android:text="Data final do Período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtperiodofinal"
+            android:hint="Informe data final para este período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvperiodovazio"
+            android:text=""
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnperiodosalvar"
+                android:text="Salvar"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+            <Button
+                android:id="@+id/btnperiodoalterar"
+                android:text="Alterar"
+                app:layout_constraintEnd_toStartOf="@+id/btnperiodoexcluir"
+                app:layout_constraintStart_toEndOf="@+id/btnperiodosalvar"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+            <Button
+                android:id="@+id/btnperiodoexcluir"
+                android:text="Excluir"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ListView
+            android:id="@+id/listviewmostraperiodo"
+            android:layout_width="match_parent"
+            android:layout_height="50000dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

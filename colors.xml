@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#C9BF00</color>
+    <color name="colorPrimaryDark">#78742C</color>
+    <color name="colorAccent">#F5F108</color>
+</resources>
+
+
+
+
+
+
+<!---
+
+
+<resources>
+
+original
+<color name="colorPrimary">#A1CDC9</color>
+<color name="colorPrimaryDark">#00574B</color>
+<color name="colorAccent">#D81B60</color>
+</resources>
+
+
+<resources>
+<color name="colorPrimary">#C7B759</color>
+<color name="colorPrimaryDark">#ADA67B</color>
+<color name="colorAccent">#FAEFB1</color>
+</resources>
+
+-->
+
+
+
+
+

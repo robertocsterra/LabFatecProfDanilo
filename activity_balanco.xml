@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".balanco">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txttelabalanco"
+                android:text="Balanço mensal"
+
+                android:layout_width="372dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background_titulo_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/ic_inicio_background"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvbalancoescolher"
+            android:text="Escolha um Período"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <Spinner
+            android:id="@+id/spbalancoperiodo"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvbalvazio"
+            android:text=""
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnbalancomostrar"
+                android:text="Visualizar Balanço"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ListView
+            android:id="@+id/tvmostrabalanco"
+            android:layout_width="match_parent"
+            android:layout_height="50000dp"
+            android:text=" " />
+
+    </LinearLayout>
+
+</ScrollView>

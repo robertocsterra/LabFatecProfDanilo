@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".cadastrodecondominio">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvcondtitulo"
+                android:text="Cadastro de Condomínio"
+
+                android:layout_width="372dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background_titulo_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/ic_inicio_background"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvcondnome"
+            android:text="Nome do condomínio"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+
+
+        <EditText
+            android:id="@+id/edtcondnome"
+            android:hint="Informe nome do condomínio"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondcnpj"
+            android:text="CNPJ"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondcnpj"
+            android:hint=" "
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+
+        <TextView
+            android:id="@+id/tvcondcpfresp"
+            android:text="CPF"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondcpfresp"
+            android:hint="Cpf do responsável"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondtelefone"
+            android:text="Telefone"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondtelefone"
+            android:hint="Telefone"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondemail"
+            android:text="E-mail"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondemail"
+            android:hint="e-mail"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondendereco"
+            android:text="Endereço"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondendereco"
+            android:hint="Informe endereço"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondcomplemento"
+            android:text="Complemento"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondcomplemento"
+            android:hint=" "
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondbairro"
+            android:text="Bairro"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondbairro"
+            android:hint=" "
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondcidade"
+            android:text="Cidade"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondcidade"
+            android:hint="cidade"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvcondcep"
+            android:text="CEP"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtcondcep"
+            android:hint=" "
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvcadcondvazio"
+            android:text=""
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncondcadastrar"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Cadastrar"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <Button
+                android:id="@+id/btncondalterar"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+
+                android:text="Alterar"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/btncondexcluir"
+                app:layout_constraintStart_toEndOf="@+id/btncondcadastrar"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <Button
+                android:id="@+id/btncondexcluir"
+                android:layout_width="100dp"
+
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Excluir"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ListView
+            android:id="@+id/listviewmostracondominio"
+            android:layout_width="match_parent"
+            android:layout_height="50000dp" />
+
+    </LinearLayout>
+
+</ScrollView>

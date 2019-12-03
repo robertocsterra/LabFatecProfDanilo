@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".moradias">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvmoradiatitulo"
+                android:text="Cadastro de Moradia"
+
+                android:layout_width="372dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background_titulo_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/ic_inicio_background"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvmoradiaproprietario"
+            android:text="Nome"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiaproprietario"
+            android:hint="Informe nome do Proprietário"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvmoradiacpfpro"
+            android:text="CPF"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiacpfpro"
+            android:hint="Informe CPF do Proprietário"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvmoradiatelefonepro"
+            android:text="Telefone"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiatelefonepro"
+            android:hint="Informe telefone do Proprietário"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvmoradiaendereco"
+            android:text="Endereço"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiaendereco"
+            android:hint="Informe endereço"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvmoradiacomplemento"
+            android:text="Complemento"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiacomplemento"
+            android:hint=" "
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+        <TextView
+            android:id="@+id/tvmoradiaatual"
+            android:text="Morador atual"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiaatual"
+            android:hint="Informe Morador"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+
+
+        <TextView
+            android:id="@+id/tvmoradiaobs"
+            android:text="OBS"
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtmoradiaobs"
+            android:hint="Informações adicionais..."
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/background_campo_gradiente_borda_arredondada"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/ic_inicio_background" />
+
+        <TextView
+            android:id="@+id/tvperiodovazio"
+            android:text=""
+
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/ic_inicio_background"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnmoradiascadastrar"
+                android:text="Cadastrar"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+            <Button
+                android:id="@+id/btnmoradiasalterar"
+                android:text="Alterar"
+                app:layout_constraintEnd_toStartOf="@+id/btnmoradiasexcluir"
+                app:layout_constraintStart_toEndOf="@+id/btnmoradiascadastrar"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+            <Button
+                android:id="@+id/btnmoradiasexcluir"
+                android:text="Excluir"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="0dp"
+
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/background_botao_gradiente_borda_arredondada"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ListView
+            android:id="@+id/listviewmostramoradias"
+            android:layout_width="match_parent"
+            android:layout_height="50000dp" />
+
+    </LinearLayout>
+
+</ScrollView>

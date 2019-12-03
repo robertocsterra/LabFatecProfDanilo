@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!---
+
+    <item
+        android:id="@+id/menusindico"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"
+        android:title="Menu Síndico">
+
+        <menu>
+
+            <item
+                android:id="@+id/menumovimentacao"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Movimentações">
+                <menu>
+                    <item
+                        android:id="@+id/menumovimentacaodespesas"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Lançamento de Despesas"/>
+
+                    <item
+                        android:id="@+id/menumovimentacaoperiodo"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Informar Período"/>
+
+                    <item
+                        android:id="@+id/menumovimentacaoemiteboleto"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Emissão de Boleto"/>
+
+                    <item
+                        android:id="@+id/menumovimentacaovoltar"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Voltar"/>
+
+                    <item
+                        android:id="@+id/menumovimentacaosair"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Sair"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/menucomunicados"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Comunicados">
+                <menu>
+                    <item
+                        android:id="@+id/menucomunicadosalimentamural"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Alimenta Mural de Noticias"/>
+
+                    <item
+                        android:id="@+id/menucomunicadoslerrecados"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Ler recados dos Moradores"/>
+
+                    <item
+                        android:id="@+id/menucomunicadosvoltar"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Voltar"/>
+
+                    <item
+                        android:id="@+id/menucomunicadossair"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Sair"/>
+                </menu>
+            </item>
+
+
+            <item
+                android:id="@+id/menucadastros"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Cadastros">
+                <menu>
+
+                    <item
+                        android:id="@+id/menucadastrofornecedores"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Cadastros de Fornecedores"/>
+
+                    <item
+                        android:id="@+id/menucadastromoradores"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Cadastros de Moradores"/>
+
+                    <item
+                        android:id="@+id/menucadastrosindico"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Cadastro de Síndico"/>
+
+                    <item
+                        android:id="@+id/menucadastrocondominio"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Cadastro de Condomínio"/>
+
+                    <item
+                        android:id="@+id/menucadastromoradia"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Cadastro de Residências"/>
+
+                    <item
+                        android:id="@+id/menucadastrovoltar"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Voltar"/>
+
+                    <item
+                        android:id="@+id/menucadastrosair"
+                        android:icon="@android:drawable/ic_menu_add"
+                        app:showAsAction="never"
+                        android:title="Sair"/>
+
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menusindicovoltar"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Voltar"/>
+
+            <item
+                android:id="@+id/menusindicosair"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Sair"/>
+        </menu>
+    </item>
+
+    -->
+
+    <item
+        android:id="@+id/menumorador"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"
+        android:title="Menu Morador">
+        <menu>
+
+            <item
+                android:id="@+id/menumoradorbalanco"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Histórico de Despesas"/>
+
+            <item
+                android:id="@+id/menumoradorvboleto"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Visualizar Boleto"/>
+
+            <item
+                android:id="@+id/menumoradorvnoticias"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Mural informativo"/>
+
+            <item
+                android:id="@+id/menumoradorrecados"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Recados para o Síndico"/>
+
+            <item
+                android:id="@+id/menumoradorvoltar"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Voltar"/>
+
+            <item
+                android:id="@+id/menumoradorsair"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="never"
+                android:title="Sair"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuinicialsair"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"
+        android:title="Sair"/>
+</menu>
